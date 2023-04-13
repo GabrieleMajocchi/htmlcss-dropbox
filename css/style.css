@@ -59,6 +59,11 @@ a{
     padding: 0.5rem 1rem;
 }
 
+div.prova-gratuita h1{
+    font-size: 7rem;
+    padding: 4rem 6rem 2rem 1rem;
+}
+
 div.pg-info img{
     width: 50rem;
 }
