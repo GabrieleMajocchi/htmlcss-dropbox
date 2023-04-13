@@ -152,6 +152,11 @@ div.price-info hr{
     border: none;
 }
 
+#special-space{
+    margin-bottom: 2.3rem;
+    font-weight: 100;
+}
+
 .bigbot{
     width: 100%;
     text-align: center;
