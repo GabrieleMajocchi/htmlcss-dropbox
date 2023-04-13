@@ -18,6 +18,10 @@
     justify-content: space-around;
 }
 
+.sp-cen{
+    justify-content: center;
+}
+
 .al-cen{
     align-items: center;
 }
@@ -31,7 +35,7 @@
 }
 
 .pad-sm{
-    padding: 0 20rem;
+    padding: 0 25rem;
 }
 
 .mar-bg{
@@ -43,10 +47,10 @@ div.left-nav img{
 }
 
 .left-nav, .right-nav{
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
-li{
+header li{
     float: left;
     list-style-type: none;
     padding: 0rem 1rem;
@@ -64,8 +68,8 @@ a{
 }
 
 div.prova-gratuita h1{
-    font-size: 7rem;
-    padding: 4rem 6rem 2rem 1rem;
+    font-size: 5.5rem;
+    padding: 4rem 0;
 }
 
 div.pg-testo p{
@@ -79,7 +83,7 @@ div.pg-testo p:nth-child(4){
 }
 
 div.pg-info img{
-    width: 70rem;
+    width: 50rem;
 }
 
 div.titolo-puls{
@@ -87,7 +91,7 @@ div.titolo-puls{
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 2.7rem;
     padding-bottom: 2rem;
 }
 
@@ -98,4 +102,20 @@ div.info span{
 input[type='radio'] { 
     transform: scale(1.5);
     margin: 0.5rem;
+}
+
+.border{
+    border: 1px solid lightgray;
+}
+
+.singolo{
+    width: 29%;
+}
+
+.titolo{
+    padding: 0.5rem;
+}
+
+.price-info{
+    padding: 1.5rem;
 }
