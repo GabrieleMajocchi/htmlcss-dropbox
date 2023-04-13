@@ -212,6 +212,17 @@ div.box>img{
     width: 45%;
 }
 
+div.box>hr{
+    margin: 3rem 80% 3rem 0;
+    height: 1px;
+    background-color: lightgray;
+    border: none;
+}
+
+div.box>p:first-of-type{
+    padding-bottom: 3rem;
+}
+
 .prova-gratuita2{
     padding: 8rem 30rem;
 }
