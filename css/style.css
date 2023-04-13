@@ -218,3 +218,15 @@ div.box>img{
     background-color: white;
     padding: 0.5rem 1rem;
 }
+
+summary{
+    display: inline;
+}
+
+div.domande-frequenti{
+    padding: 10rem 0;
+}
+
+div.domande-frequenti hr{
+    margin: 2rem 0;
+}
