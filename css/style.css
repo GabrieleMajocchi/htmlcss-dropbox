@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.al-base{
+    align-items: baseline;
+}
+
 .column{
     flex-direction: column;
 }
@@ -112,7 +116,7 @@ h3{
     font-size: 1.7rem;
 }
 
-div.info span{
+div.titolo-plus span{
     padding: 20rem 5rem 20rem 0;
 }
 
@@ -126,7 +130,41 @@ input[type='radio'] {
 }
 
 .singolo{
-    width: 20rem;
+    width: calc((100% / 3) - 2rem);
+}
+
+div.price-info i{
+    padding-right: 0.2rem;
+}
+
+div.price-info .flex{
+    padding: 0.5rem 0;
+}
+
+div.price-info h3, div.price-info p, div.price-info h4{
+    padding: 0.5rem 0;
+}
+
+div.price-info hr{
+    margin: 2rem 80% 2rem 0;
+    height: 1px;
+    background-color: lightgray;
+    border: none;
+}
+
+.bigbot{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+div.price-info p a{
+text-decoration: underline;
+color: #0061ff;
+}
+
+div.price-info p:first-of-type{
+    font-weight: 700;
 }
 
 .titolo{
