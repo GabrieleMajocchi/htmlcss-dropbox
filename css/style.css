@@ -145,6 +145,10 @@ div.right-team{
     margin-top: 1rem;
 }
 
+div.piano-team h4{
+    padding: 1rem 0 3rem 0;
+}
+
 div.partner img{
     width: 60%;
 }
