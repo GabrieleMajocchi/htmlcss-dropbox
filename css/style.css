@@ -34,6 +34,10 @@
     padding: 0 20rem;
 }
 
+.mar-bg{
+    margin: 0 30rem;
+}
+
 div.left-nav img{
     padding-right: 1rem;
 }
@@ -76,4 +80,18 @@ div.pg-testo p:nth-child(4){
 
 div.pg-info img{
     width: 70rem;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+div.info>span{
+    padding: 2rem 5rem 2rem 0;
+}
+
+input[type='radio'] { 
+    transform: scale(1.5);
+    margin: 0.5rem;
 }
