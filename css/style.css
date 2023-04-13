@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .bg-lightblue{
     background-color: #b4d0e7;
 }
@@ -143,4 +147,35 @@ div.partner img{
 
 .small-box img{
     width: 100%;
+}
+
+.box{
+width: calc(100% / 3);
+}
+
+.super-small-box{
+    width: calc(100% / 2);
+    aspect-ratio: 1;
+}
+
+div.super-small-box img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.bg-green{
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
+}
+
+.bg-bordeaux{
+    background-color: #61082B;
+}
+
+.bg-wblu{
+    background-color: #0093CE;
+}
+
+.bg-lightred{
+    background-color: #FF1C1C;
 }
