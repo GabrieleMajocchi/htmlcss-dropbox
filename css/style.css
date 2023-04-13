@@ -149,12 +149,17 @@ div.partner img{
     padding: 4rem 0;
 }
 
+
 .small-box{
     width: calc((100% / 3) - 3rem);
 }
 
 .small-box img{
     width: 100%;
+}
+
+.more{
+    padding: 10rem 0;
 }
 
 .box{
