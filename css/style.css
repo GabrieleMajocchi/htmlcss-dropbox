@@ -30,8 +30,8 @@
     border: 3px dashed red;
 }
 
-.margin-sm{
-    margin: 0 20rem;
+.pad-sm{
+    padding: 0 20rem;
 }
 
 div.left-nav img{
@@ -48,7 +48,17 @@ li{
     padding: 0rem 1rem;
 }
 
-li a {
+a{
     color: black;
     text-decoration: none;
+}
+
+.blu-bott{
+    background-color: #0061ff;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+div.pg-info img{
+    width: 50rem;
 }
