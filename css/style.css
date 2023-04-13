@@ -84,6 +84,10 @@ border: 1px solid black;
 padding: 0.5rem 1rem;
 }
 
+.prova-gratuita{
+    margin-bottom: 8rem;
+}
+
 div.prova-gratuita h1{
     font-size: 5.5rem;
     padding: 4rem 0;
@@ -94,14 +98,21 @@ div.pg-testo p{
     font-size: 1.1rem;
 }
 
-div.pg-testo p:nth-child(4){
-    font-size: 4rem;
-    padding-top: 4rem;
+div.pg-testo i{
+    font-size: 4.5rem;
+    padding: 3rem 0 1rem 1rem;
 }
 
 div.pg-info img{
-    width: 50rem;
+    position: absolute;
+    right: 23rem;
+    width: 55rem;
 }
+
+div.pg-testo{
+    width: 27rem;
+}
+
 
 div.titolo-puls{
     padding: 2rem 0;
