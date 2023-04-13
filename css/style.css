@@ -197,6 +197,7 @@ div.price-info p:first-of-type{
 
 div.right-team{
     margin-top: 1rem;
+    min-width: 205px;
 }
 
 div.piano-team h4{
