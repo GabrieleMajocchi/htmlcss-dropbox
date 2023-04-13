@@ -216,7 +216,8 @@ div.box>img{
 
 .prova-gratuita2 a{
     background-color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
 }
 
 summary{
