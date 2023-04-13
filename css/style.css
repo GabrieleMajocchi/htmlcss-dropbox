@@ -64,6 +64,16 @@ div.prova-gratuita h1{
     padding: 4rem 6rem 2rem 1rem;
 }
 
+div.pg-testo p{
+    padding: 0 1rem 2rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+div.pg-testo p:nth-child(4){
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+
 div.pg-info img{
-    width: 50rem;
+    width: 70rem;
 }
