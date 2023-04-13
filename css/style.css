@@ -20,3 +20,8 @@
 .bg-lightblue{
     background-color: #b4d0e7;
 }
+
+li{
+    float: left;
+    list-style-type: none;
+}
