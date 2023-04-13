@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -230,4 +234,22 @@ div.domande-frequenti{
 
 div.domande-frequenti hr{
     margin: 2rem 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-info h3{
+    padding: 1rem 0;
+}
+
+.footer-info a{
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.footer-info div{
+    padding: 4rem 0;
 }
