@@ -151,9 +151,12 @@ div.partner img{
 }
 
 .partner{
-    padding: 4rem 0;
+    padding: 7rem 0 9rem 0;
 }
 
+div.partner-info p{
+    padding: 1rem 0 3rem 0;
+}
 
 .small-box{
     width: calc((100% / 3) - 3rem);
