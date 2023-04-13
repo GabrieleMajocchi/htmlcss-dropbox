@@ -129,11 +129,11 @@ input[type='radio'] {
     border: 1px solid lightgray;
 }
 
-.singolo{
+div.piani-disp>div{
     width: calc((100% / 3) - 2rem);
 }
 
-div.price-info i{
+div.piani-disp i{
     padding-right: 0.2rem;
 }
 
