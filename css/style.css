@@ -67,6 +67,11 @@ a{
     padding: 0.5rem 1rem;
 }
 
+.white-bott{
+border: 1px solid black;
+padding: 0.5rem 1rem;
+}
+
 div.prova-gratuita h1{
     font-size: 5.5rem;
     padding: 4rem 0;
@@ -122,4 +127,12 @@ input[type='radio'] {
 
 .piano-team{
     padding: 3rem 0;
+}
+
+div.partner img{
+    width: 60%;
+}
+
+.partner{
+    padding: 4rem 0;
 }
