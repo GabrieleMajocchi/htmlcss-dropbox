@@ -82,13 +82,17 @@ div.pg-info img{
     width: 70rem;
 }
 
-h2{
-    font-size: 3rem;
+div.titolo-puls{
     padding: 2rem 0;
 }
 
-div.info>span{
-    padding: 2rem 5rem 2rem 0;
+h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+div.info span{
+    padding: 20rem 5rem 20rem 0;
 }
 
 input[type='radio'] { 
