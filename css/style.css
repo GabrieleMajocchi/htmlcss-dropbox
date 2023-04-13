@@ -17,11 +17,29 @@
     justify-content: space-around;
 }
 
+.al-cen{
+    align-items: center;
+}
+
 .bg-lightblue{
     background-color: #b4d0e7;
+}
+
+div.left-nav img{
+    padding-right: 1rem;
+}
+
+.left-nav, .right-nav{
+    padding: 2rem 1rem;
 }
 
 li{
     float: left;
     list-style-type: none;
+    padding: 0rem 1rem;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
 }
