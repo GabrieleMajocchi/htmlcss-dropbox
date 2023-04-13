@@ -4,3 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.sp-btw{
+    justify-content: space-between;
+}
+
+.sp-arr{
+    justify-content: space-around;
+}
+
