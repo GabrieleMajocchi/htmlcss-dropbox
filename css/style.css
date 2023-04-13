@@ -253,3 +253,8 @@ footer{
 .footer-info div{
     padding: 4rem 0;
 }
+
+div.lingua p{
+    padding: 4rem 0.3rem 4rem 0.5rem;
+    color: #999999;
+}
