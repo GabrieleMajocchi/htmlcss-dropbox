@@ -136,3 +136,11 @@ div.partner img{
 .partner{
     padding: 4rem 0;
 }
+
+.small-box{
+    width: calc((100% / 3) - 3rem);
+}
+
+.small-box img{
+    width: 100%;
+}
