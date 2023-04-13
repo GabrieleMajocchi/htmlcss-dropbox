@@ -108,6 +108,10 @@ h2{
     padding-bottom: 2rem;
 }
 
+h3{
+    font-size: 1.7rem;
+}
+
 div.info span{
     padding: 20rem 5rem 20rem 0;
 }
@@ -251,10 +255,15 @@ footer{
 }
 
 .footer-info div{
-    padding: 4rem 0;
+    padding: 5rem 0 7rem 0;
 }
 
 div.lingua p{
-    padding: 4rem 0.3rem 4rem 0.5rem;
+    padding: 3rem 0.3rem 3rem 0.5rem;
     color: #999999;
+}
+
+footer hr{
+    margin-right: 74%;
+    margin-left: 25rem;
 }
