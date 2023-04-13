@@ -109,7 +109,7 @@ input[type='radio'] {
 }
 
 .singolo{
-    width: 29%;
+    width: 20rem;
 }
 
 .titolo{
@@ -118,4 +118,8 @@ input[type='radio'] {
 
 .price-info{
     padding: 1.5rem;
+}
+
+.piano-team{
+    padding: 3rem 0;
 }
