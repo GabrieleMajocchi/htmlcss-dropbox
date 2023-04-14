@@ -102,6 +102,10 @@ padding: 0.5rem 1rem;
     border: 1px solid lightgray;
 }
 
+.height100{
+    height: 100%;
+}
+
 #special-space{
     margin-bottom: 2.3rem;
     font-weight: 100;
@@ -161,7 +165,7 @@ div.pg-info img{
 }
 
 div.pg-testo{
-    width: 27rem;
+    width: 25rem;
 }
 
 
@@ -180,6 +184,7 @@ input[type='radio'] {
 
 div.piani-disp>div{
     width: calc((100% / 3) - 2rem);
+    padding-bottom: 2rem;
 }
 
 div.piani-disp i{
