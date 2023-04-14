@@ -141,6 +141,7 @@ a{
 
 .prova-gratuita{
     margin-bottom: 8rem;
+    height: 48rem;
 }
 
 div.prova-gratuita h1{
@@ -155,13 +156,12 @@ div.pg-testo p{
 
 div.pg-testo i{
     font-size: 4.5rem;
-    padding: 0 0 0 1rem;
+    padding: 3rem 0 1rem 1rem;
 }
 
 div.pg-info img{
     position: relative;
-    top: 5rem;
-    width: 65%;
+    width: 70%;
 }
 
 div.pg-testo{
