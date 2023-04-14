@@ -38,12 +38,8 @@
     flex-wrap: wrap;
 }
 
-.bg-lightblue{
-    background-color: #b4d0e7;
-}
-
-.check{
-    border: 3px dashed red;
+.pad-3rem{
+    padding: 3rem;
 }
 
 .pad-sm{
@@ -52,6 +48,72 @@
 
 .mar-bg{
     margin: 0 30rem;
+}
+
+.bg-lightblue{
+    background-color: #b4d0e7;
+}
+
+.bg-green{
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
+}
+
+.bg-bordeaux{
+    background-color: #61082B;
+}
+
+.bg-wblu{
+    background-color: #0093CE;
+}
+
+.bg-lightred{
+    background-color: #FF1C1C;
+}
+
+.bg-darkred{
+    background-color: #D5001F;
+}
+
+.bg-darkblu{
+    background-color: #0D2481;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+.bg-lightgrey{
+    background-color: #F5F5F5;
+}
+
+.blu-bott{
+    background-color: #0061ff;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.white-bott{
+border: 1px solid black;
+padding: 0.5rem 1rem;
+}
+
+.border{
+    border: 1px solid lightgray;
+}
+
+#special-space{
+    margin-bottom: 2.3rem;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 2.7rem;
+    padding-bottom: 2rem;
+}
+
+h3{
+    font-size: 1.7rem;
 }
 
 div.left-nav img{
@@ -71,17 +133,6 @@ header li{
 a{
     color: black;
     text-decoration: none;
-}
-
-.blu-bott{
-    background-color: #0061ff;
-    color: white;
-    padding: 0.5rem 1rem;
-}
-
-.white-bott{
-border: 1px solid black;
-padding: 0.5rem 1rem;
 }
 
 .prova-gratuita{
@@ -118,15 +169,6 @@ div.titolo-puls{
     padding: 2rem 0;
 }
 
-h2{
-    font-size: 2.7rem;
-    padding-bottom: 2rem;
-}
-
-h3{
-    font-size: 1.7rem;
-}
-
 div.titolo-plus span{
     padding: 20rem 5rem 20rem 0;
 }
@@ -134,10 +176,6 @@ div.titolo-plus span{
 input[type='radio'] { 
     transform: scale(1.5);
     margin: 0.5rem;
-}
-
-.border{
-    border: 1px solid lightgray;
 }
 
 div.piani-disp>div{
@@ -161,11 +199,6 @@ div.price-info hr{
     height: 1px;
     background-color: lightgray;
     border: none;
-}
-
-#special-space{
-    margin-bottom: 2.3rem;
-    font-weight: 100;
 }
 
 .bigbot{
@@ -245,43 +278,6 @@ width: calc(100% / 3);
 div.super-small-box img{
     width: 50%;
     filter: invert(100%);
-}
-
-.bg-green{
-    background-color: #A2D39B;
-    border: 1rem solid #D1E9CD;
-}
-
-.bg-bordeaux{
-    background-color: #61082B;
-}
-
-.bg-wblu{
-    background-color: #0093CE;
-}
-
-.bg-lightred{
-    background-color: #FF1C1C;
-}
-
-.bg-darkred{
-    background-color: #D5001F;
-}
-
-.bg-darkblu{
-    background-color: #0D2481;
-}
-
-.bg-yellow{
-    background-color: #FFD830;
-}
-
-.bg-lightgrey{
-    background-color: #F5F5F5;
-}
-
-.pad-3rem{
-    padding: 3rem;
 }
 
 div.box>img{
