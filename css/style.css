@@ -50,6 +50,10 @@
     margin: 0 30rem;
 }
 
+.no-pad{
+    padding: 0;
+}
+
 .bg-lightblue{
     background-color: #b4d0e7;
 }
