@@ -380,9 +380,10 @@ i.fa-toggle-on{
 
 button:focus .fa-toggle-on{
     display: inline-block;
-    filter: invert(100%);
+    /* filter: invert(100%); */
 }
 
+/* 
 body{
     background-color: white;
 }
@@ -394,4 +395,31 @@ body.dark{
 
 .test.dark{
     color: white;
+} */
+
+div.left-nav ul li{
+    position: relative;
+}
+
+div.left-nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    padding-top: 1.5rem;
+}
+
+div.left-nav ul li ul li{
+    padding: 0.7rem 1rem;
+    width: 100%;
+}
+
+
+div.left-nav ul li ul li:hover{
+    background-color: #f3f3f3;
+    border-radius: 1rem;
+}
+
+div.left-nav ul li:hover ul{
+    display: block;
 }
