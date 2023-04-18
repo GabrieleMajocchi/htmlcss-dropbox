@@ -401,7 +401,7 @@ div.left-nav ul li{
     position: relative;
 }
 
-div.left-nav ul li ul{
+.dropdown{
     display: none;
     position: absolute;
     background-color: white;
