@@ -368,43 +368,6 @@ footer hr{
     margin-left: 15%;
 }
 
-button{
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-button i{
-    width: 20px;
-}
-
-button:focus .fa-toggle-off{
-    display: none;
-}
-
-i.fa-toggle-on{
-    display: none;
-}
-
-button:focus .fa-toggle-on{
-    display: inline-block;
-    /* filter: invert(100%); */
-}
-
-/* 
-body{
-    background-color: white;
-}
-
-body.dark{
-    background-color: black;
-    color: white;
-}
-
-.test.dark{
-    color: white;
-} */
-
 div.left-nav ul li{
     position: relative;
 }
@@ -430,4 +393,111 @@ div.left-nav ul li ul li:hover{
 
 div.left-nav ul li:hover ul{
     display: block;
+}
+
+
+/* RESPONSIVE MIN 1200PX */
+@media screen and (max-width: 1200px) {
+
+    body{
+        min-width: auto;
+    }
+
+    .prova-gratuita{
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    div.left-nav ul li, div.right-nav ul li{
+        display: none;
+    }
+
+    div.right-nav ul li.no-pad{
+        display: block;
+    }
+
+    div.prova-gratuita h1{
+        font-size: 3rem;
+    }
+    
+    div.pg-info img{
+        display: none;
+    }
+
+    div.pg-testo{
+        width: auto;
+    }
+
+    div.titolo-puls{
+        text-align: center;
+    }
+
+    div.piani-disp{
+        flex-direction: column;
+    }
+
+    div.piani-disp > div{
+        width: auto;
+    }
+
+    div.partner{
+        flex-direction: column;
+    }
+
+    div.partner img{
+        width: auto;
+    }
+
+    div.business > div{
+        flex-direction: column;
+    }
+
+    .small-box{
+        width: auto;
+    }
+
+    div.prova-gratuita2{
+        flex-direction: column;
+    }
+
+    .prova-gratuita2 div{
+        margin: 2rem 0;
+    }
+
+    div.footer-info{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer-info div{
+        padding: 0.5rem 0;
+    }
+
+    .footer-info div a{
+        display: none;
+    }
+
+    .footer-info div:hover a{
+        display: block;
+    }
+    
+    .width60{
+        width: 70%;
+    }
+    
+    .width70{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .width60{
+        width: 85%;
+    }
+    
+    .width70{
+        width: 90%;
+    }
 }
